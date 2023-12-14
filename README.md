@@ -1,7 +1,6 @@
-------
+
 使用cloudflare的workers搭建VLESS协议
-朋远方 • 2023年9月16日 上午10:02 • 互联网技术, 跨境电商 • 阅读 1605
-github文件地址：
+
 
 https://github.com/zizifn/edgetunnel/blob/main/src/worker-vless.js
 
