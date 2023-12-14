@@ -36,15 +36,22 @@ worker-vless.js
 
     let userID = '86797703-523c-4325-8fd8-ea3fc228038f';
 
-13、将第9行的“let proxyIP = ”修改为下面cdn加速中的任意一个，例如：
+13、将第9行的“let proxyIP = ”修改为下面cdn加速中的任意一个，例如：(let 和const 不同注意标记，const可多)
 let proxyIP = 'cdn.anycast.eu.org';
+或：const proxyIPs=['cdn.anycast.eu.org','cdn-all.xn--b6gac.eu.org','cdn.xn--b6gac.eu.org','cdn-b100.xn--b6gac.eu.org','edgetunnel.anycast.eu.org'];
 cdn加速
 
+cdn.anycast.eu.org
 cdn-all.xn--b6gac.eu.org
+
 cdn.xn--b6gac.eu.org 
+
 cdn-b100.xn--b6gac.eu.org 
+
 edgetunnel.anycast.eu.org 
-cdn.anycast.eu.org （亚洲地区）
+
+cdn.anycast.eu.org 
+（亚洲地区）
 
 
 14、点击右上角的“保存并部署”；
